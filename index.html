@@ -1,32 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-    *
-    {
-     text-align: center;
-     background-color: blueviolet;
-     color: black;
-    }
-</style>
+    <title>FASE 2</title>
 
+    <STYle>
+body{
+    text-align: center;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:blue ;
+}
+
+
+    </STYle>
 </head>
+
 <body>
-<h1> Bienvenidos a mi sitio web </h1>
-<h2> Proyecto de sitio web año 2023 - periodo 9</h2>
-<hr>
-<h3>Nombre: Yeimy Gutierrez</h3>
-<h3>Programa: Ingenieria de ssitemas</h3>
-<h3>Fecha: 21 de febrero de 2023</h3>
-<hr>
-<p> Mis datos de contacto son:<br>
-    Número de celular: 3112816991 <br>
-    email: yygutierrezm@unadvirtual.edu.co <br>
-</p>    
+    <header>
+        <h1> BOX MODEL </h1>
+
+               <nav>
+            <UL>
+                <LI> <a href="#INICIO"> INICIO</a></LI>
+                <LI> <a href="#TEMA SELECCIONADO">TEMA SELECCIONADO</a></LI>
+                <LI> <a href="#Mockup">MOCKUP</a></LI>
+                <LI> <a href="#ACERCA DE">ACERCA DE</a></LI>
+            </UL>
+    
+        </nav>
+
+
+
+    </header>
+    
+    <selection id="INICIO"> 
+        
+        <h2> Introducción al Box Model </h2>
+
+        <p>
+            El nombre 'box-model' (modelo de caja) se llama así porque, en los navegadores, todo se construye a partir
+            de cajas.
+            Entonces, lo primero que debemos de entender, es que cada elemento que definimos en un documento HTML se
+            mostrará en el navegador como una caja rectangular esta es la forma en que se representan todos los
+            elementos, no existen elementos triangulares, redondos, poligonales etc. Todos los elementos en HTML por
+            defecto son rectangulares ya que internamente el navegador dibuja un rectángulo.
+            Aunque usted visualice en un sitio web algún elemento diseñado en CSS que utiliza border - radius para
+            parecer un círculo, ese elemento seguirá siendo rectangular y esto es porque como he dicho anteriormente
+            cada elemento del diseño web es una caja, el navegador renderiza cada elemento de la página web como un
+            elemento rectangular y con CSS nosotros definimos las propiedades como el tamaño, el color, los estilos, el
+            margen y mucho más de estos elementos rectangulares
+
+        </p>
+
+        <img src="imag/css boxmodel.jpg" alt="">
+
+    </selection >
+
+   
+    <!--ESTA ES LA SECCION DEL TEMA SELECCIONADO--> 
+
+    
+    <hr>
+
+    <section id="TEMA SELECCIONADO">
+        <h2> ¿Qué es el Box Model y porque es importante? </h2>
+
+        <p>
+
+            El modelo de cajas o "box model" es seguramente la característica más importante del lenguaje de hojas de
+            estilos CSS, ya que condiciona el diseño de todas las páginas web. El modelo de cajas es el comportamiento
+            de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares.
+
+        </p>
+
+
+    </section>
+    <hr>
+    <section>
+        <p>
+        <h3> Tipos de Box Model </h3>
+    </section>
+    <h3> Cajas de bloque (Block boxes) </h3>
+    Las cajas de bloque, por defecto, ocupan todo el espacio a lo ancho del contenedor. El elemento HTML común para una
+    caja de bloque es el elemento <div>.
+
+        <h3> Cajas en línea (Inline boxes)</h3>
+        Las cajas en línea, por defecto, toman el espacio según el contenido envuelto. El elemento HTML más común para
+        una caja en línea es el elemento <span>.El comportamiento de todas las cajas proviene de la propiedad display de
+            CSS.
+            </p>
+
+            </section>
+
+            <hr> <a name="Mockup"></a>
+            <section>
+
+                <h3> Mockup de la Página </h3>
+
+                <img src="imag/Diagrama sin título.jpg" alt="">
+
+            </section>
+
+            <section id="ACERCA DE">
+                <h3> Acerca de </h3>
+                
+                <h5>Nombre: Yeimy Gutierrez</h5>
+                <h5>Programa: Ingenieria de ssitemas</h5>
+                <h5>Fecha: 11 de Marzo de 2023</h5>
+                <hr>
+                <p> Mis datos de contacto son:<br>
+                    Número de celular: 3112816991 <br>
+                    email: yygutierrezm@unadvirtual.edu.co <br></h5>
+
+            </section>
+
+            
+
 </body>
 
 </html>
