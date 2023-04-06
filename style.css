@@ -1,0 +1,26 @@
+header{
+    background-color: B2A4FF;
+}
+    
+
+nav{
+
+    background-color: rgba(238, 238, 238, 0.863);
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+aside{ 
+background-color: E8D5C4;
+}
+
+
+footer {
+background-color: EA8FEA;
+}
+
