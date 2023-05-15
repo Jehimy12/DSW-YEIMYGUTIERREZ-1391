@@ -4,20 +4,21 @@ function resultado(){
 
     let myForm = document.forms["formulario"];
     let respuestasCorrectas=["p13", "p22", "p31", "p42", "p52"];
-
+console.log(myForm['pregunta1']);
+let j=1;
     for(let i =1; i <=total; i++){
-        if (myForm["p" + i].value == null ||
-            myForm ["p" + i].value == ''){
+        if (myForm["pregunta" + i].value == null ||
+            myForm ["pregunta" + i].value == ''){
                 alert('Favor responder la preguntas');
                 return false;
             }
             else { 
-                if(myForm["p" + i].value === respuestasCorrectas[i - 1])
-                puntos++;
+                if(myForm["pregunta" + i].value === respuestasCorrectas[i - 1])
+                punto++;
                 
             }
                 }
                 let resultado=document.getElementById('resultado')
-                resultado.innerHTML='obtuviste'+puntos+' puntos de' + total + 'posibles';
+                resultado.innerHTML='Obtuviste '+punto+' puntos de ' + total + ' posibles';
                 return false;
 }
