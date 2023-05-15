@@ -4,79 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <title>cuestionario</title>
 </head>
-<body class="contenedor"> 
-    <header>
-        <h1 class="centrado"> BOX MODEL</h1>
-    </header>
-    
-    <nav
-        
-        <ul class="menu-horizontal">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="audio.html">Audio</a></li>                   
-            <li><a href="tema.html">Tema</a></li>                                        
-        </ul>
-    </nav>
-             
-    
-    
-       <aside>
-            <ul class="menu-aside">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="audio.html">Audio</a></li>                   
-            <li><a href="tema.html">Tema</a></li> 
-            <li><a href="nosotros.html">Nosotros</a></li>                                        
-        </ul>
-               
-        </aside>
-                        
-        <main>
-            <selection id="INICIO"> 
-        
-                <h2 class="centrado"> Introducción al Box Model </h2>
-    
-                <p>
-                    El nombre 'box-model' (modelo de caja) se llama así porque, en los navegadores, todo se construye a partir
-                    de cajas.
-                    Entonces, lo primero que debemos de entender, es que cada elemento que definimos en un documento HTML se
-                    mostrará en el navegador como una caja rectangular esta es la forma en que se representan todos los
-                    elementos, no existen elementos triangulares, redondos, poligonales etc. Todos los elementos en HTML por
-                    defecto son rectangulares ya que internamente el navegador dibuja un rectángulo.
-                    Aunque usted visualice en un sitio web algún elemento diseñado en CSS que utiliza border - radius para
-                    parecer un círculo, ese elemento seguirá siendo rectangular y esto es porque como he dicho anteriormente
-                    cada elemento del diseño web es una caja, el navegador renderiza cada elemento de la página web como un
-                    elemento rectangular y con CSS nosotros definimos las propiedades como el tamaño, el color, los estilos, el
-                   margen y mucho más de estos elementos rectangulares.
+<body>
+     <!--titulo-->
+     <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center;">CUESTIONARIO FASE 4  </h1>
+                <h1 style="text-align: center;">Yeimy Yohana Gutierrez- CODIGO 30415869  </h1>
+                <BR></BR>
+            </div>
+        </div>
+    </div>
 
-                  
-                </p>
-        
-                <img src="imag/css boxmodel.jpg" alt="">
-        
-            
-                        </selection >
-        
-        </main>
-    
-     
-     
-     
-        <footer>
-                 
-            <h3> 
-                Universidad Nacional Abierta y a Distancia <br>
-                DISEÑO WEB FASE 3 <br>
-                Realizado por: Yeimy Yohana Gutierrez <br>
-            </h3>
-       
-        </footer>
+    <!--Preguntas-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form name="formulario">
+                    <p><strong>1. ¿Que es un Box Model'  </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta1" value="p11" id= "p11"> <label for="p11"> Es una herramiento llamda 3D </label> </li>
+                        <li><input type="radio" name="pregunta1" value="p12" id= "p12"> <label for="p12"> Es un elemento de HTMLque se compone de 4 áreas. </label></li>
+                        <li><input type="radio" name="pregunta1" value="p13" id= "p13"> <label for="p13"> Es la característica más importante del lenguaje de hojas de estilos CSS </label></li>
+                        <li><input type="radio" name="pregunta1" value="p14" id= "p14"> <label for="p14"> Ninguna de las anteriores </label></li>
+                    </ol>
+                    <p><strong>2.¿Qué es el modelo Box en HTML? </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta2" value="p21" id= "p21"> <label for="p21"> Es el contenido central de todo elemento </label></li>
+                        <li><input type="radio" name="pregunta2" value="p23" id= "p23"> <label for="p23"> Es el borde de la línea que rodea la caja como la frontera que rodea al elemento </label></li>
+                        <li><input type="radio" name="pregunta2" value="p22" id= "p22"> <label for="p22"> El área donde se muestra el contenido, cuyo tamaño puede cambiarse utilizando propiedades como width y height </label></li>
+                        <li><input type="radio" name="pregunta2" value="p24" id= "p24"> <label for="p24"> La respuesta correcta es la 1 y la 3 </label></li>
+                    </ol>
+                    <p><strong>3. ¿Qué aspectos importantes tiene el modelo de caja en CSS?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta3" value="p31" id= "p31"> <label for="p31"> Incluye sus rellenos y márgenes, que son generadas para los elementos y que se disponen de acuerdo al modelo de formato visual </label></li>
+                        <li><input type="radio" name="pregunta3" value="p33" id= "p33"> <label for="p33"> Se utiliza para dibujar un contorno alrededor de un elemento </label></li>
+                        <li><input type="radio" name="pregunta3" value="p32" id= "p32"> <label for="p32"> El relleno, el margen y el borde mantienen a los otros elementos alejados de la caja </label></li>
+                        <li><input type="radio" name="pregunta3" value="p34" id= "p34"> <label for="p34"> Está definido por los valores de propiedad display, como block y inline </label></li>
+                    </ol>
+                    <p><strong>4. ¿Qué es el modelo de cajas box model en CSS?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta4" value="p41" id= "p41"> <label for="p41"> Es una lista, que se presenta usando display: flex </label></li>
+                        <li><input type="radio" name="pregunta4" value="p42" id= "p42"> <label for="p42">Es el comportamiento de CSS que hace que todos los elementos de las páginas se representen mediante cajas rectangulares </label></li>
+                        <li><input type="radio" name="pregunta4" value="p43" id= "p43"> <label for="p43">Es un espacio invisible que hay alrededor de la caja</label></li>
+                        <li><input type="radio" name="pregunta4" value="p44" id= "p44"> <label for="p44">Es un punto clave a la hora de entender los márgenes es el concepto de colapso del margen </label></li>
+                    </ol>
+                    <p><strong>5. ¿Cuáles son las partes que compone un box model?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta5" value="p55" id="p55"> <label for="p55"> Contenido, Relleno, Borde</label></li>
+                        <li><input type="radio" name="pregunta5" value="p51" id="p51"> <label for="p51">Contenido, Relleno, Borde, Imagen de fondo, margen de la caja</label></li>
+                        <li><input type="radio" name="pregunta5" value="p52" id="p52"> <label for="p52"> Contenido, Relleno, Imagen de fondo </label></li>
+                        <li><input type="radio" name="pregunta5" value="p53"  id="p53"> <label for="p53"> Ninguna de las anteriores </label></li>
+                    </ol>
+                    
+                    <hr />
 
-   
+                    
+                    <p style="font-size: 20px; font-weight: 600;" id="resultado"></p>
+                    <button type="button" value="enviar" onclick="resultado()">FINALIZAR</button>
+                    
+                    <hr />
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="respuestas.js"></script>
+    
+  
 </body>
 </html>
